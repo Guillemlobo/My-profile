@@ -1,0 +1,94 @@
+	#banner h1 {
+	  font-size: 3rem;
+	  margin-top: 0;
+	}
+
+	#banner p {
+	  font-size: 1.5rem;
+	}
+
+	/* About styles */
+	#about {
+	  background-color: #f2f2f2;
+	  padding: 50px;
+	  text-align: center;
+	}
+
+	/* Services styles */
+	#services {
+	  padding: 50px;
+	  text-align: center;
+	}
+
+	#services ul {
+	  list-style: none;
+	  margin: 0;
+	  padding: 0;
+	}
+
+	#services li {
+	  display: inline-block;
+	  margin-right: 20px;
+	  font-size: 1.2rem;
+	}
+
+	/* Contact styles */
+	#contact {
+	  padding: 50px;
+	  text-align: center;
+	}
+
+	form label {
+	  display: block;
+	  margin-bottom: 10px;
+	}
+
+	form input[type=text],
+	form input[type=email],
+	form textarea {
+	  display: block;
+	  width: 100%;
+	  padding: 10px;
+	  margin-bottom: 20px;
+	  border: 1px solid #ccc;
+	  font-size: 1rem;
+	}
+
+	form input[type=submit] {
+	  background-color: #333;
+	  color: #fff;
+	  padding: 10px 20px;
+	  border: none;
+	  cursor: pointer;
+	  font-size: 1rem;
+	}
+
+	form input[type=submit]:hover {
+	  background-color: #555;
+	}
+
+	/* Button styles */
+	.btn {
+	  background-color: #333;
+	  color: #fff;
+	  padding: 10px 20px;
+	  border: none;
+	  text-decoration: none;
+	  display: inline-block;
+	  margin-top: 20px;
+	  font-size: 1rem;
+	  transition: background-color 0.3s ease;
+	}
+
+	.btn:hover {
+	  background-color: #555;
+	}
+
+	/* Footer styles */
+	footer {
+	  background-color: #333;
+	  color: #fff;
+	  padding: 10px;
+	  text-align: center;
+	}
+</style>
