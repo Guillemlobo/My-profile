@@ -1,0 +1,87 @@
+/* Reset default styles */
+html, body {
+  margin: 30;
+  padding: 30;
+}
+
+/* Global styles */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f2f2f2;
+}
+
+.container {
+  max-width: 800px;
+  padding: 20px;
+  text-align: center;
+}
+
+.card-white {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+h1, h2 {
+  font-family: 'Lora', serif;
+  color: #007f7e;
+  margin-top: 0;
+}
+
+h1 {
+  font-size: 28px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+p {
+  color: #000;
+  margin-bottom: 15px;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.btn-blue {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007f7e;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.btn-blue:hover {
+  background-color: #005656;
+}
+
+ul.list-inline {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul.list-inline li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+/* Font Awesome icons */
+.fa-brands {
+  font-size: 24px;
+  color: #007f7e;
+  transition: color 0.3s ease;
+}
+
+.fa-brands:hover {
+  color: #005656;
+}
