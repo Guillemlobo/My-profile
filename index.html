@@ -1,141 +1,59 @@
-	<!DOCTYPE html>
 <html>
+
 <head>
-	<title>Hello, I'm Guille</title>
-	<style>
-		body {
-			margin: 100;
-			padding: 100;
-			font-family: Arial, sans-serif;
-			background-color: #008080;
-		}
-
-		.container {
-			margin: 0 auto;
-			max-width: 1000px;
-			padding: 50px;
-			background-color: #fff;
-			box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-			border-radius: 5px;
-			box-sizing: border-box;
-		}
-
-		.header {
-			background-color: #008080;
-			color: #fff;
-			padding: 20px;
-			border-top-left-radius: 15px;
-			border-top-right-radius: 15px;
-			box-sizing: border-box;
-		}
-
-		.nav {
-			display: flex;
-			background-color: #444;
-			color: #fff;
-			padding: 0px;
-			border-bottom-left-radius: 5px;
-			border-bottom-right-radius: 5px;
-			box-sizing: border-box;
-		}
-
-		.nav a {
-			color: #fff;
-			text-decoration: none;
-			margin-right: 10px;
-		}
-
-		.main {
-			display: flex;
-			flex-wrap: wrap;
-			justify-content: space-between;
-			padding: 10px;
-			box-sizing: border-box;
-		}
-
-		.box1 {
-			width: calc(100% - 10px);
-			margin-bottom: 20px;
-			background-color: #fff;
-			box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-			border-radius: 5px;
-			padding: 20px;
-			box-sizing: border-box;}
-
-		.box {
-			width: calc(50% - 10px);
-			margin-bottom: 20px;
-			background-color: #fff;
-			box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-			border-radius: 5px;
-			padding: 20px;
-			box-sizing: border-box;
-		}
-
-		.box h2 {
-			margin-top: 0;
-		}
-
-		.box p {
-			margin-bottom: 0;
-		}
-
-		.footer {
-			background-color: #333;
-			color: #fff;
-			padding: 20px;
-			border-radius: 5px;
-			box-sizing: border-box;
-			text-align: center;
-		}
-        
-        .profile-img {
-			display: block;
-			margin: 20 auto;
-			width: 200px;
-			height: 200px;
-			object-fit: cover;
-			border-radius: 20%;
-			box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-		}
-	</style>
+	<title>Guillermo's profile</title>
+	<meta name="description" content="This is the profile of Guillermo">
+	<meta charset="UTF-8">
+	<script src="https://kit.fontawesome.com/51c24fa52a.js" crossorigin="anonymous"></script>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
 	<div class="container">
-		<div class="card-white">
-		<div class="header">
-			<h1>Hello, I'm Guille 👨‍💻</h1>
+		<div class="card-white" id="introduction">
+			<h1>Hello, I'm Guille!</h1>
+			<img src="images/foto.jpg" class="img-circle" width="100px" alt="Guillermo">
+			<p>I consider myself a hard-working, proactive and dynamic person, with decision-making capacity. I am used to working in a team, whatever my role within it. 
+			Enthusiastic about everything related to technology, new ideas and creativity. In love with the audiovisual universe, whether on the small or big screen, and everything related to it.</p>
+			<a href="https://www.linkedin.com/in/guillermo-mart%C3%ADnez-lobo-057534188/" target="blank" class="btn-blue">Find out more about me</a>
 		</div>
-		<img src="/image/foto.jpg" alt="Profile Image" class="profile-img">
-		<div class="main">
 
-		
-						<div class="box1">
-				<h2>My profile 🙋‍♂️</h2>
-				<p>
-					Hello! I'm a beginner programmer and this is my website, where I share my interests and the things I'm learning. I'm passionate about the programming world and I love learning new things every day. Thanks for visiting my website!
-				</p>
-				<a href="#" class="btn-blue"> Discover Le Wagon </a>
-			</div>
-			<div class="box">
-				<h2>UX/UI 💭</h2>
-				<p>I have always been interested in design and technology, and I am excited to be pursuing a career in this field. I believe that great design can make a positive impact on people's lives, and I am passionate about creating user-centered experiences that are both functional and beautiful.
+		<div class="card-white">
+			<h2>Advertising</h2>
+			<p>Creation of new ideas and proposals to attract the masses. 
+			Let me join your team and bring up new creative concepts together!</p>
+		</div>
 
-</p>
-			</div>
-			<div class="box">
-				<h2>Web Development ⌨️</h2>
-				<p>I am passionate about creating beautiful, functional and user-friendly websites that can help businesses and individuals achieve their goals online.
+		<div class="card-white">
+			<h2>Digital marketing</h2>
+			<p>I can help you to promote your brand to connect with potential customers using the internet and other forms of digital communication.</p>
+		</div>
 
-Thank you for taking the time to learn a little bit about me and my work!</p>
+		<div class="card-white">
+			<h2>Content creation</h2>
+			<p>I create entertaining or educational material to reach, engage and retain your audience on social media.</p>
+		</div>
 
+		<div class="card-white">
+			<h2>Contact me</h2>
+			<ul class="list-inline">
+				<li>
+					<a href="https://www.linkedin.com/in/guillermo-mart%C3%ADnez-lobo-057534188/"target="blank"><i class="fa-brands fa-linkedin"></i></a>
+				</li>
+				<li>
+					<a href="https://www.instagram.com/guillemlobo/ "target="blank"><i class="fa-brands fa-square-instagram"></i></a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	¡
+</body>
 
-</div>
-			<div class="box2">
-				<div data-tf-sidetab="VctAPJyO" data-tf-opacity="100" data-tf-iframe-props="title=Monday.com template TG (copy)" data-tf-transitive-search-params data-tf-button-color="#0445AF" data-tf-button-text="Try me!" data-tf-medium="snippet" style="all:unset;">
-					
-				</div>
-				<script src="//embed.typeform.com/next/embed.js">
-					
-				</script>
+</html>
